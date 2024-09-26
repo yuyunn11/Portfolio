@@ -151,10 +151,10 @@ section::before {
  }
 
  @media only screen and (max-width: 576px) {
-    section::before (
+    section::before {
         left: -10px;
         font-size: 64px;
-    )
+    }
  }
 
 @keyframes upDown {
